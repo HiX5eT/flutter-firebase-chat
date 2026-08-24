@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ozelchat-d0f6a",
+          "appId": "1:170457191879:android:dff5ed52874e8f0d3335e2",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ozelchat-d0f6a",
+          "configurations": {
+            "android": "1:170457191879:android:dff5ed52874e8f0d3335e2",
+            "ios": "1:170457191879:ios:468bcc1f024047613335e2",
+            "macos": "1:170457191879:ios:468bcc1f024047613335e2",
+            "web": "1:170457191879:web:9e9399e69dd034dd3335e2",
+            "windows": "1:170457191879:web:9e9399e69dd034dd3335e2"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

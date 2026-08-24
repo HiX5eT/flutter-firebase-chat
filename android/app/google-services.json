@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "170457191879",
+    "project_id": "ozelchat-d0f6a",
+    "storage_bucket": "ozelchat-d0f6a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170457191879:android:dff5ed52874e8f0d3335e2",
+        "android_client_info": {
+          "package_name": "com.example.ozel_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170457191879-scf0tt9a3fpb7mcd54puooorpobhv0mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAowlXu3oh_jwuKdnupJ3GkdAi1up01h4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170457191879-scf0tt9a3fpb7mcd54puooorpobhv0mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
