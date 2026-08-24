@@ -1,17 +1,25 @@
-# ozel_chat
+# 🚀 Özel Sohbet Uygulaması (Flutter Web)
 
-A new Flutter project.
+Sıfırdan geliştirdiğim, anlık mesajlaşma ve medya paylaşım özelliklerine sahip web tabanlı özel sohbet uygulaması. 
 
-## Getting Started
+## 📌 Özellikler
+- **Google ile Giriş:** Güvenli bir şekilde Firebase Authentication üzerinden hızlıca oturum açma.
+- **Gerçek Zamanlı Mesajlaşma:** Cloud Firestore altyapısı ile anlık mesaj alışverişi.
+- **Medya Paylaşımı:** Galeri üzerinden fotoğraf seçip Base64 formatına çevirerek sohbet içinde paylaşabilme.
+- **Yönetici (Admin) Kontrolleri:** Belirlenen admin yetkilisi ile istenmeyen mesajları doğrudan sohbetten sikebilme/silebilme.
+- **Responsive Tasarım:** Modern ve şık kullanıcı arayüzü.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Kurulum ve Çalıştırma
 
-A few resources to get you started if this is your first Flutter project:
+Projeyi kendi bilgisayarınızda çalıştırmak ve kendi Firebase projenize bağlamak için şu adımları izleyin:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+1. Bu depoyu klonlayın:
+   ```bash
+   git clone https://github.com/HiX5eT/flutter-firebase-chat.git
+   ```
+2. lib/ klasörü altındaki firebase_options.dart dosyasını açın ve kendi Firebase projenize ait anahtarları (BURAYA_..._YAZIN yazan yerlere) girin.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Projeyi tarayıcıda çalıştırın:
+   ```bash
+   flutter run -d chrome
+   ````
