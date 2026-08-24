@@ -120,7 +120,7 @@ class _ChatPageState extends State<ChatPage> {
   final User? currentUser = FirebaseAuth.instance.currentUser;
 
   // BURAYA KENDİ ADMIN MAİLİNİ YAZACAKSIN:
-  final String adminEmail = "emreozabay629@gmail.com"; 
+  final String adminEmail = "BURAYA_ADMIN_MAIL_ADRESINI_YAZ"; 
 
   bool get isAdmin => currentUser?.email == adminEmail;
 
